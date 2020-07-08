@@ -7,43 +7,71 @@
     <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
-    <header>
+    <header class="header">
       <h1>
         <a href="/sports/app">
           Sports
         </a>
       </h1>
-      <h2>
-        <img src="./img/logo_sports_colour.svg" alt="This is the sports logo">
-      </h2>
     </header>
-    <main>
-      <header>
-        <h2>
-          Get a personalized football experience tailored just for you
+
+    <main class="main">
+      <header class="main__header">
+        <h2 class="main__header__logo">
+          <a class="main__header__logo" href="/sports-app">
+            <img class="main__header__logo__link" src="./img/logo_sports_colour.svg" alt="This is the sports logo">
+
+            <span class="main__header__logo__link--sport">
+              Sport's logo
+            </span>
+          </a>
         </h2>
       </header>
-      <section>
-        <h3>Personalized football</h3>
-        <article>
-          <h4>Acheiving a super-fun</h4>
-          <p>
+
+      <section class="main__section">
+        <header class="main__section__heading">
+          <h3 class="main__section__heading__header">
+            <a class="main__section__heading__header" href="/personalized-football">
+              Get a personalized football experience tailored just for you
+            </a>
+          </h3>
+        </header>
+
+        <article class="main__section__article--heading">
+          <h4 class="main__section__article">Personalized football</h4>
+          <p class="main__section__article--description">
             Achieve super-fan status by getting tailored updates and up-to-the-minute information on your team.
           </p>
         </article>
       </section>
-      <footer>
-        <nav>
-          <a href="/download-on-the-app-store">
-            <figure>
-              <img src="./img/apple_store.svg" alt="This is an app store">
-            </figure>
-          </a>
-          <a href="/download-on-the-app-store">
-            <figure>
-              <img src="./img/google_play.svg" alt="This is an app store">
-            </figure>
-          </a>
+
+      <footer class="main__footer">
+        <nav class="main__footer__navigation">
+          <ul class="main__footer__navigation">
+            <li>
+              <a class="main__footer__navigation" href="/download-on-the-app-store">
+                <figure>
+                  <img src="./img/apple_store.svg" alt="This is an app store">
+                </figure>
+                <span>
+                  Download on the app store
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a href="/download-on-the-app-store">
+                <figure>
+                  <img src="./img/google_play.svg" alt="This is an app store">
+                </figure>
+                <span>
+                  Download on Google play
+                </span>
+              </a>
+            </li>
+
+          </ul>
+
         </nav>
       </footer>
     </main>
