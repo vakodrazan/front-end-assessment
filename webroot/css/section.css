@@ -4,6 +4,9 @@
   font-size: 1.874rem;
   line-height: 1.5;
   color: #333333;
+  margin: 0;
+  padding-top: 3.125rem;
+  padding-bottom: 2.06rem;
 }
 
 .main__section__heading__header:hover {
