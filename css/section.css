@@ -16,6 +16,8 @@
 
 /* Desktop view */
 @media (min-width: 1160px) {
-
+  .main__section__heading__header {
+    font-size: 2.25rem;
+  }
 }
 
