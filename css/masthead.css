@@ -1,3 +1,6 @@
+/* Default device is mobile */
+/* This is for the logo */
+
 .main__header__logo {
   font-weight: 400;
   font-size: 3rem;
@@ -6,6 +9,15 @@
   padding-top: 2.25rem;
 }
 
+/* The logo image */
 .main__header__logo__link--image {
   width: 11.625rem;
+}
+
+/* Desktop view */
+
+@media (min-width: 1160px) {
+  .main__header__logo__link--image {
+    width: 5.75rem;
+  }
 }
