@@ -1,1 +1,11 @@
+.main__footer__navigation__list {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0;
+}
 
+figure {
+  margin: 0;
+}
