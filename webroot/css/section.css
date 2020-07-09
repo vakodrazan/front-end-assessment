@@ -3,4 +3,10 @@
   font-weight: 700;
   font-size: 1.874rem;
   line-height: 1.5;
+  color: #333333;
+}
+
+.main__section__heading__header:hover {
+  color: #7a7979;
+  text-decoration: underline;
 }
