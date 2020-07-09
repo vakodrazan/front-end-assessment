@@ -1,1 +1,11 @@
+.main__section__article--heading {
+  display: none;
+}
 
+.main__section__article--description {
+  font-family: 'Lato',Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding-bottom: 3.125rem;
+}
