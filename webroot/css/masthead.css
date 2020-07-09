@@ -1,1 +1,6 @@
-
+.main__header__logo {
+  font-weight: 400;
+  font-size: 3rem;
+  font-family: 'Lato',Arial, Helvetica, sans-serif;
+  margin: 0;
+}
