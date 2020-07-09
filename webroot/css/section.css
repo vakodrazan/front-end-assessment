@@ -13,3 +13,9 @@
   color: #7a7979;
   text-decoration: underline;
 }
+
+/* Desktop view */
+@media (min-width: 1160px) {
+
+}
+
