@@ -4,3 +4,7 @@
   font-family: 'Lato',Arial, Helvetica, sans-serif;
   margin: 0;
 }
+
+.main__header__logo__link--image {
+  width: 11.625rem;
+}
