@@ -15,9 +15,10 @@
 }
 
 /* Desktop view */
-@media (min-width: 1160px) {
+@media (min-width: 68rem) {
   .main__section__heading__header {
     font-size: 2.25rem;
+    padding-top: 8.3125rem;
   }
 }
 
