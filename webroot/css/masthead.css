@@ -16,7 +16,11 @@
 
 /* Desktop view */
 
-@media (min-width: 1160px) {
+@media (min-width: 68rem) {
+  .main__header__logo{
+    padding-top: 1rem;
+  }
+
   .main__header__logo__link--image {
     width: 5.75rem;
   }
