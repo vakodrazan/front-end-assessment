@@ -11,23 +11,23 @@ a {
   text-decoration: none;
 }
 
-/* Fallback fonts */
-
-@font-face {
-  font-family: "lato";
-  font-weight: 700;
-  src: url('../fonts/Lato-Regular.woff2') format("woff2"),
-    url('../fonts/Lato-Regular.woff') format("woff"),
-    url('../fonts/Lato-Bold.woff2') format("woff2"),
-    url('../fonts/Lato-Bold.woff') format('woff')
-  ;
+figure {
+  margin: 0;
 }
+
 
 /* Desktop device */
 
-@media (min-width: 1160px) {
-  main {
+@media (min-width: 68rem) {
+  .main {
     text-align: left;
     padding-left: 10.19rem;
+    width: 40%;
+  }
+  body {
+    background-image: url("../img/bg_header.png");
+    background-repeat: no-repeat;
+    background-position: 40rem 75%;
+    background-size: 60%;
   }
 }
