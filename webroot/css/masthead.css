@@ -7,6 +7,7 @@
   font-family: 'Lato',Arial, Helvetica, sans-serif;
   margin: 0;
   padding-top: 2.25rem;
+  padding-bottom: 3.125rem;
 }
 
 /* The logo image */
@@ -17,8 +18,9 @@
 /* Desktop view */
 
 @media (min-width: 68rem) {
-  .main__header__logo{
+  .main__header__logo {
     padding-top: 1rem;
+    padding-bottom: 8.3125rem;
   }
 
   .main__header__logo__link--image {
