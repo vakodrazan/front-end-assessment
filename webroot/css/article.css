@@ -1,7 +1,9 @@
+/* Hide the article heading */
 .main__section__article--heading {
   display: none;
 }
 
+/* For the article */
 .main__section__article--description {
   font-family: 'Lato',Arial, Helvetica, sans-serif;
   font-size: 1rem;
@@ -10,7 +12,7 @@
   padding-bottom: 3.125rem;
 }
 
-
+/* Using desktop view */
 @media (min-width: 68rem) {
   .main__section__article--description {
     font-size: 1.125rem;
