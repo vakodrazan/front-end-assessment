@@ -1,3 +1,5 @@
+/* This for the section heading */
+
 .main__section__heading__header {
   font-family: 'Lato',Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -8,6 +10,7 @@
   padding-bottom: 2.06rem;
 }
 
+/* When a mouse hover over it */
 .main__section__heading__header:hover {
   color: #7a7979;
   text-decoration: underline;
