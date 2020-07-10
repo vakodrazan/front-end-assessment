@@ -6,6 +6,8 @@
   padding-left: 0;
 }
 
-figure {
-  margin: 0;
+@media (min-width: 68rem) {
+  .main__footer__navigation__list__item {
+    padding-right: 2.5rem;
+  }
 }
