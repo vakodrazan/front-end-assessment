@@ -1,9 +1,8 @@
+@import "fonts.css";
 /* Import the new file in here */
-
+@import "default.css";
 @import "header.css";
 @import "masthead.css";
-@import "default.css";
-@import "fonts.css";
 @import "span.css";
 @import 'section.css';
 @import 'article.css';
