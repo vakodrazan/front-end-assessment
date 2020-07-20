@@ -1,6 +1,8 @@
+/* Only for the fall back fonts */
 @import "fonts.css";
-/* Import the new file in here */
+/* For the style in general */
 @import "default.css";
+/* Import the new file in here */
 @import "header.css";
 @import "masthead.css";
 @import "span.css";
