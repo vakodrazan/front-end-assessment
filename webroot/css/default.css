@@ -23,6 +23,11 @@ img {
   max-width: 100%;
 }
 
+/* Hide all the image description */
+span {
+  display: none;
+}
+
 /* Desktop device */
 
 @media (min-width: 68rem) {
