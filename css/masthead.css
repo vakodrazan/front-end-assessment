@@ -15,9 +15,25 @@
   text-decoration: underline;
 }
 
+/* For the article */
+.main__header__description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding-bottom: 3.125rem;
+  color: rgb(79,79,79);
+}
+
+
+
 /* Desktop view */
 @media (min-width: 68rem) {
   .main__header__masthead {
     font-size: 2.25rem;
+  }
+
+  .main__header__description {
+    font-size: 1.125rem;
+    padding-right: 6rem;
   }
 }
