@@ -4,14 +4,14 @@
   font-weight: 700;
   font-size: 1.874rem;
   line-height: 1.5;
-  color: #333333;
+  color: rgb(51, 51, 51);
   margin: 0;
   padding-bottom: 2.06rem;
 }
 
 /* When a mouse hover over it */
 .main__section__heading__header:hover {
-  color: #7a7979;
+  color: rgba(51, 51, 51, .7);
   text-decoration: underline;
 }
 
