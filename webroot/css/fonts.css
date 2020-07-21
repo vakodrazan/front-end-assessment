@@ -1,6 +1,7 @@
 
 /* Fallback fonts */
 
+/* for the regular fonts */
 @font-face {
   font-style: normal;
   font-family: "lato";
@@ -12,7 +13,7 @@
   ;
 }
 
-
+/* for the bold fonts */
 @font-face {
   font-style: normal;
   font-family: "lato";
@@ -20,5 +21,5 @@
   src: local("Lato Bold"),
       local("Lato-Bold"),
       url('../fonts/lato-bold.woff2') format("woff2"),
-      url('../fonts/lato-bold.woff') format('woff');
+      url('../fonts/lato-bold.woff') format("woff");
 }
