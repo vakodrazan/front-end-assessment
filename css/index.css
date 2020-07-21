@@ -5,7 +5,8 @@
 /* Import the new file in here */
 @import "header.css";
 @import "masthead.css";
-@import 'section.css';
+@import "nav.css";
+
 @import 'article.css';
-@import 'footer_nav.css';
 @import "span.css";
+
