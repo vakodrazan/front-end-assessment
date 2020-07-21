@@ -20,13 +20,18 @@
 /* Desktop view */
 
 @media (min-width: 68rem) {
+  .header {
+    text-align: left;
+    padding-left: 10.19rem;
+  }
+
   .header__logo {
     padding-top: 1rem;
     padding-bottom: 8.3125rem;
   }
 
   .header__logo__link__image {
-    width: 5.75rem;
+    max-width: 5.75rem;
   }
 }
 
