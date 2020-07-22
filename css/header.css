@@ -2,6 +2,7 @@
 /* This is for the logo */
 .header {
   text-align: center;
+  margin: auto;
 }
 
 .header__logo {
@@ -14,7 +15,7 @@
 
 /* The logo image */
 .header__logo__link__image {
-  width: 11.625rem;
+  min-width: 11.625rem;
 }
 
 /* Desktop view */
@@ -22,7 +23,6 @@
 @media (min-width: 68rem) {
   .header {
     text-align: left;
-    padding-left: 10.19rem;
   }
 
   .header__logo {
