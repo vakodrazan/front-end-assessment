@@ -5,18 +5,5 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 0;
 }
 
-
-/* When using desktop device */
-@media (min-width: 68rem) {
-  .main__header__navigation__list__item {
-    padding-right: 2.5rem;
-  }
-
-
-  .main__header__navigation {
-    padding-right:9rem;
-  }
-}
