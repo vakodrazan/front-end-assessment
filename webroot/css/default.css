@@ -1,10 +1,19 @@
 body {
   font-family: 'Lato',Arial, Helvetica, sans-serif;
+  max-width: 1000px;
 }
 
 main {
   text-align: center;
-  margin: auto;
+}
+
+main > header {
+  text-align: center;
+  max-width: 450px;
+}
+
+ul {
+  padding: 10px;
 }
 
 li {
@@ -31,17 +40,17 @@ span {
 /* Desktop device */
 
 @media (min-width: 68rem) {
-  .main {
-    text-align: left;
-    padding-left: 10.19rem;
-    max-width: 40%;
-    margin: 0;
-  }
-
   body {
+    margin: auto;
     background-image: url("../img/bg_header.png");
     background-repeat: no-repeat;
-    background-position: 120% 65% ;
-    background-size: 56.5rem 50.56rem;
+    background-position: 700px 65% ;
+    background-size: 55rem 50.56rem;
   }
+
+  main > header {
+    text-align: left;
+    max-width: 500px;
+  }
+
 }
