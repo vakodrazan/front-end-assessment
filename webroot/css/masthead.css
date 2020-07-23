@@ -27,7 +27,25 @@
 
 
 /* Desktop view */
-@media (min-width: 68rem) {
+@media (min-width: 1120px) {
+  main > header {
+    background-image: url("../img/bg_header.png");
+    background-repeat: no-repeat;
+    background-position-x: calc(50vw - 11px);
+    background-position-y: 100px;
+    background-size: cover;
+  }
+
+  .content {
+    max-width: 1114px;
+    margin: auto;
+    text-align: left;
+  }
+
+  .content > * {
+    max-width: 546px;
+  }
+
   .main__header__masthead {
     font-size: 2.25rem;
   }
