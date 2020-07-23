@@ -32,14 +32,16 @@
     background-image: url("../img/bg_header.png");
     background-repeat: no-repeat;
     background-position-x: calc(50vw - 11px);
-    background-position-y: 100px;
-    background-size: cover;
+    background-position-y: 15px;
+    background-size: contain;
   }
 
   .content {
     max-width: 1114px;
     margin: auto;
     text-align: left;
+    padding-bottom: 7rem;
+    padding-top: 15rem;
   }
 
   .content > * {
