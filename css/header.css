@@ -1,6 +1,12 @@
 /* Default device is mobile */
 /* This is for the logo */
 
+.header {
+  text-align: center;
+}
+
+
+
 .header__logo {
   font-weight: 700;
   font-size: 3rem;
@@ -17,6 +23,12 @@
 /* Desktop view */
 
 @media (min-width: 1120px) {
+  .header {
+    position: absolute;
+    left: 20rem;
+  }
+
+
   .header__logo {
     padding-top: 1rem;
     padding-bottom: 8.3125rem;
