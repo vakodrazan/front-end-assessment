@@ -1,9 +1,5 @@
 /* Default device is mobile */
 /* This is for the logo */
-.header {
-  text-align: center;
-  margin: auto;
-}
 
 .header__logo {
   font-weight: 700;
@@ -20,11 +16,7 @@
 
 /* Desktop view */
 
-@media (min-width: 68rem) {
-  .header {
-    text-align: left;
-  }
-
+@media (min-width: 1120px) {
   .header__logo {
     padding-top: 1rem;
     padding-bottom: 8.3125rem;
