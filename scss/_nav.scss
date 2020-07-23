@@ -1,0 +1,9 @@
+/* Using the default device which is mobile */
+
+.main__header__navigation__list {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+

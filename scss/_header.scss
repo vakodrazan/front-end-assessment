@@ -1,0 +1,41 @@
+/* Default device is mobile */
+/* This is for the logo */
+
+.header {
+  text-align: center;
+}
+
+
+
+.header__logo {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0;
+  padding-top: 2.25rem;
+  padding-bottom: 3.125rem;
+}
+
+/* The logo image */
+.header__logo__link__image {
+  min-width: 11.625rem;
+}
+
+/* Desktop view */
+
+@media (min-width: 1120px) {
+  .header {
+    position: absolute;
+    left: 20rem;
+  }
+
+
+  .header__logo {
+    padding-top: 1rem;
+    padding-bottom: 8.3125rem;
+  }
+
+  .header__logo__link__image {
+    max-width: 5.75rem;
+  }
+}
+
