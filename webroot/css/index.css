@@ -1,8 +1,122 @@
 /* Only for the fall back fonts */
-@import "fonts.css";
+/* Fallback fonts */
+/* for the regular fonts */
+@font-face {
+  font-style: normal;
+  font-family: "lato";
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url("../fonts/lato-regular.woff2") format("woff2"), url("../fonts/lato-regular.woff") format("woff"); }
+
+/* for the bold fonts */
+@font-face {
+  font-style: normal;
+  font-family: "lato";
+  font-weight: 700;
+  src: local("Lato Bold"), local("Lato-Bold"), url("../fonts/lato-bold.woff2") format("woff2"), url("../fonts/lato-bold.woff") format("woff"); }
+
 /* For the style in general */
-@import "default.css";
+body {
+  font-family: 'Lato',Arial, Helvetica, sans-serif; }
+
+main {
+  text-align: center; }
+
+main > header {
+  text-align: center; }
+
+ul {
+  padding: 10px; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+figure {
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+/* Hide all the image description */
+span {
+  display: none; }
+
 /* Import the new file in here */
-@import "header.css";
-@import "masthead.css";
-@import "nav.css";
+/* Default device is mobile */
+/* This is for the logo */
+.header {
+  text-align: center; }
+
+.header__logo {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0;
+  padding-top: 2.25rem;
+  padding-bottom: 3.125rem; }
+
+/* The logo image */
+.header__logo__link__image {
+  min-width: 11.625rem; }
+
+/* Desktop view */
+@media (min-width: 1120px) {
+  .header {
+    position: absolute;
+    left: 20rem; }
+  .header__logo {
+    padding-top: 1rem;
+    padding-bottom: 8.3125rem; }
+  .header__logo__link__image {
+    max-width: 5.75rem; } }
+
+/* This for the section heading */
+.main__header__masthead {
+  font-weight: 700;
+  font-size: 1.874rem;
+  line-height: 1.5;
+  color: #333333;
+  margin: 0;
+  padding-bottom: 2.06rem; }
+
+/* When a mouse hover over it */
+.main__header__masthead:hover {
+  color: rgba(51, 51, 51, 0.7);
+  text-decoration: underline; }
+
+/* For the article */
+.main__header__description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding-bottom: 3.125rem;
+  color: #4f4f4f; }
+
+/* Desktop view */
+@media (min-width: 1120px) {
+  main > header {
+    background-image: url("../img/bg_header.png");
+    background-repeat: no-repeat;
+    background-position-x: calc(50vw - 11px);
+    background-position-y: 15px;
+    background-size: contain; }
+  .content {
+    max-width: 1114px;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 7rem;
+    padding-top: 15rem; }
+  .content > * {
+    max-width: 546px; }
+  .main__header__masthead {
+    font-size: 2.25rem; }
+  .main__header__description {
+    font-size: 1.125rem; } }
+
+/* Using the default device which is mobile */
+.main__header__navigation__list {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
