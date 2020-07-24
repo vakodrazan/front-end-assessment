@@ -1,13 +1,16 @@
+$decoration: none;
+$text_align: center;
+
 body {
   font-family: 'Lato',Arial, Helvetica, sans-serif;
 }
 
 main {
-  text-align: center;
+  text-align: $text_align;
 }
 
 main > header {
-  text-align: center;
+  text-align: $text_align;
 }
 
 ul {
@@ -15,11 +18,11 @@ ul {
 }
 
 li {
-  list-style: none;
+  list-style: $decoration;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: $decoration;
 }
 
 figure {
@@ -32,5 +35,5 @@ img {
 
 /* Hide all the image description */
 span {
-  display: none;
+  display: $decoration;
 }
