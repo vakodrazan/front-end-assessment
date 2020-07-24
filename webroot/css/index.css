@@ -72,10 +72,12 @@ span {
     max-width: 5.75rem; } }
 
 /* This for the section heading */
+.content {
+  line-height: 1.5; }
+
 .main__header__masthead {
   font-weight: 700;
   font-size: 1.874rem;
-  line-height: 1.5;
   color: #333333;
   margin: 0;
   padding-bottom: 2.06rem; }
@@ -88,7 +90,6 @@ span {
 /* For the article */
 .main__header__description {
   font-size: 1rem;
-  line-height: 1.5;
   margin: 0;
   padding-bottom: 3.125rem;
   color: #4f4f4f; }
