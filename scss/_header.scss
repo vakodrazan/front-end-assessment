@@ -24,7 +24,7 @@
 
 /* Desktop view */
 
-@media (min-width: $faux-column-width) {
+@media (min-width: $breakpoint-desktop) {
   .header {
     position: absolute;
     left: 20rem;
