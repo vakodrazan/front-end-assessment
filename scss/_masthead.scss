@@ -9,14 +9,14 @@
 .main__header__masthead {
   font-weight: 700;
   font-size: 1.874rem;
-  color: rgb($heading_color);
+  color: $heading_color;
   margin: 0;
   padding-bottom: 2.06rem;
 }
 
 /* When a mouse hover over it */
 .main__header__masthead:hover {
-  color: rgba($heading_color, .7);
+  color: $heading_hover_color;
   text-decoration: underline;
 }
 
