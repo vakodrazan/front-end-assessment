@@ -31,7 +31,7 @@
 
 
 /* Desktop view */
-@media (min-width: 1120px) {
+@media (min-width: $faux-column-width) {
   main > header {
     background-image: url("../img/bg_header.png");
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@
   }
 
   .content {
-    max-width: 1114px;
+    max-width: $faux-column-width;
     margin: auto;
     text-align: left;
     padding-bottom: 7rem;
