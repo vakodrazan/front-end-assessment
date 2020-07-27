@@ -28,6 +28,8 @@ ul {
   padding: 10px; }
 
 li {
+  margin: 0;
+  padding: 0;
   list-style: none; }
 
 a {
@@ -118,6 +120,8 @@ span {
 /* Using the default device which is mobile */
 .main__header__navigation__list {
   margin: 0;
+  padding: 0;
+  list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
