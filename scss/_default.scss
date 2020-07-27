@@ -1,3 +1,4 @@
+@import "variables";
 $decoration: none;
 $text_align: center;
 
@@ -18,7 +19,7 @@ ul {
 }
 
 li {
-  list-style: $decoration;
+  @include reset_list();
 }
 
 a {
