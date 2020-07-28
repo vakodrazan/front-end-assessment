@@ -42,7 +42,8 @@
 
   .content {
     max-width: $breakpoint-desktop;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: left;
     padding-bottom: 7rem;
     padding-top: 15rem;
