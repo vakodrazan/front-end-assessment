@@ -34,7 +34,7 @@
   .header__logo {
     padding-top: 1rem;
     padding-bottom: 8.3125rem;
-    margin-left: calc(50% - 1114px);
+    margin-left: calc(50% - #{$breakpoint-desktop});
   }
 
   .header__logo__link__image {
