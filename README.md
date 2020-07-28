@@ -80,3 +80,5 @@ Use `npm i` to install any file or folder.
 ## Run css
 
 Use this command to run the file `npm run css:watch`.
+
+When you add a new file restart `css:Watch`
