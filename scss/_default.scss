@@ -22,6 +22,10 @@ li {
   @include reset_list();
 }
 
+p {
+  color: $color;
+}
+
 a {
   text-decoration: $decoration;
 }
