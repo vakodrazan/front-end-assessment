@@ -27,14 +27,14 @@
 @media (min-width: $breakpoint-desktop) {
   .header {
     position: absolute;
-    left: 50%;
+    left: $container_percentage;
   }
 
 
   .header__logo {
     padding-top: 1rem;
     padding-bottom: 8.3125rem;
-    margin-left: calc(50% - #{$breakpoint-desktop});
+    margin-left: calc(#{$container_percentage} - #{$breakpoint-desktop});
   }
 
   .header__logo__link__image {
