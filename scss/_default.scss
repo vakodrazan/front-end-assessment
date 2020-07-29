@@ -14,13 +14,12 @@ main > header {
   text-align: $text_align;
 }
 
-ul {
+nav > ul {
+  @include reset_list();
+
   padding: 10px;
 }
 
-li {
-  @include reset_list();
-}
 
 p {
   color: $color;
