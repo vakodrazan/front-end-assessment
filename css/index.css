@@ -133,7 +133,8 @@ span {
   font-size: 28px;
   font-weight: 700;
   color: #333333;
-  margin: 0; }
+  margin: 0;
+  padding-top: 27px; }
 
 .main__section__article__description {
   margin: 0;
@@ -147,6 +148,14 @@ span {
 .main__section__article__learn-more__link {
   font-size: 16px;
   font-weight: 700; }
+
+@media (min-width: 1114px) {
+  .main__section {
+    max-width: 1114px;
+    margin: auto;
+    text-align: left; }
+  .main__section__article {
+    max-width: 480px; } }
 
 /* Using the default device which is mobile */
 .main__header__navigation__list {
