@@ -31,7 +31,7 @@ nav > ul {
   padding: 10px; }
 
 p {
-  color: #4f4f4f; }
+  font-size: 16px; }
 
 a {
   text-decoration: none; }
@@ -95,7 +95,8 @@ span {
 .main__header__description {
   font-size: 1rem;
   margin: 0;
-  padding-bottom: 3.125rem; }
+  padding-bottom: 3.125rem;
+  color: #4f4f4f; }
 
 /* Desktop view */
 @media (min-width: 1114px) {
@@ -139,7 +140,8 @@ span {
 .main__section__article__description {
   margin: 0;
   padding-top: 27px;
-  font-size: 16px; }
+  font-size: 16px;
+  color: #4f4f4f; }
 
 .main__section__article__learn-more {
   margin: 0;
@@ -160,10 +162,45 @@ span {
 .main__feature__list-item {
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  line-height: 1.5;
+  color: #00ADEE; }
+
+.main__feature__heading {
+  font-size: 28px;
+  color: #333333;
+  margin: 0;
+  padding-top: 76px;
+  padding-bottom: 58px; }
+
+.main__feature__list-item__information {
+  padding-bottom: 50px; }
+
+.main__feature__list-item__information > p {
+  color: #4f4f4f;
+  margin: 0; }
 
 svg {
-  fill: currentColor; }
+  fill: currentColor;
+  color: inherit;
+  margin: 0; }
+
+@media (min-width: 1114px) {
+  .main__feature {
+    background-color: #00ADEE; }
+  .main__feature__heading {
+    color: #ffff; }
+  .main__feature__list-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 90px;
+    grid-row-gap: calc(90px / 2);
+    max-width: 1114px;
+    margin: auto;
+    color: #ffff;
+    text-align: left; }
+  .main__feature__list-item__information > p {
+    color: #ffff; } }
 
 /* Using the default device which is mobile */
 .main__header__navigation__list {
