@@ -9,6 +9,9 @@
 .main__feature__heading {
   font-size: 28px;
   color: $heading_color;
+  margin: 0;
+  padding-top: 76px;
+  padding-bottom: 58px;
 }
 .main__feature__list-item__information {
   padding-bottom: 50px;
@@ -28,7 +31,10 @@ svg {
 @media (min-width: $breakpoint-desktop) {
   .main__feature {
     background-color: #00ADEE;
-    color: white;
+  }
+
+  .main__feature__heading {
+    color: $fill_color;
   }
 
   .main__feature__list-item {
@@ -38,11 +44,11 @@ svg {
     grid-row-gap: calc(#{$feature_gap} / 2);
     max-width: $breakpoint-desktop;
     margin: auto;
-    color: white;
+    color: $fill_color;
     text-align: left;
   }
 
   .main__feature__list-item__information > p {
-    color: #fff;
+    color: $fill_color;
   }
 }
