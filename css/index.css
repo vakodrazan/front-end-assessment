@@ -157,10 +157,13 @@ span {
   .main__section__article {
     max-width: 480px; } }
 
-.main__feature__article__list-item {
+.main__feature__list-item {
   margin: 0;
   padding: 0;
   list-style: none; }
+
+svg {
+  fill: currentColor; }
 
 /* Using the default device which is mobile */
 .main__header__navigation__list {
