@@ -1,5 +1,9 @@
 @import "variables";
 
-.main__feature__article__list-item {
+.main__feature__list-item {
   @include reset_list();
+}
+
+svg {
+  fill: currentColor;
 }
