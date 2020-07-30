@@ -2,8 +2,47 @@
 
 .main__feature__list-item {
   @include reset_list();
+  line-height: $line_height;
+  color: #00ADEE;
+}
+
+.main__feature__heading {
+  font-size: 28px;
+  color: $heading_color;
+}
+.main__feature__list-item__information {
+  padding-bottom: 50px;
+}
+
+.main__feature__list-item__information > p {
+  color: $color;
+  margin: 0;
 }
 
 svg {
   fill: currentColor;
+  color: inherit;
+  margin: 0;
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .main__feature {
+    background-color: #00ADEE;
+    color: white;
+  }
+
+  .main__feature__list-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: $feature_gap;
+    grid-row-gap: calc(#{$feature_gap} / 2);
+    max-width: $breakpoint-desktop;
+    margin: auto;
+    color: white;
+    text-align: left;
+  }
+
+  .main__feature__list-item__information > p {
+    color: #fff;
+  }
 }
