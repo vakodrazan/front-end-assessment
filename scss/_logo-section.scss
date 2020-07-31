@@ -11,3 +11,15 @@
   display: inline-block;
   columns: 3;
 }
+
+@media (min-width: $breakpoint-desktop) {
+  .main__logo {
+    max-width: $breakpoint-desktop;
+    margin: auto;
+  }
+  .main__logo__article__list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
