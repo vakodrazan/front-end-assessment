@@ -212,6 +212,15 @@ svg {
   display: inline-block;
   columns: 3; }
 
+@media (min-width: 1114px) {
+  .main__logo {
+    max-width: 1114px;
+    margin: auto; }
+  .main__logo__article__list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; } }
+
 /* Using the default device which is mobile */
 .main__header__navigation__list {
   margin: 0;
