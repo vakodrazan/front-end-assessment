@@ -48,7 +48,8 @@ span {
 
 /* Import the new file in here */
 .header {
-  text-align: center; }
+  text-align: center;
+  background-color: #F4F6F9; }
   @media (min-width: 1114px) {
     .header {
       position: absolute;
