@@ -322,4 +322,8 @@ svg {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 350px; }
+  margin: auto;
+  max-width: 400px; }
+  @media (min-width: 1114px) {
+    .main__header__navigation__list {
+      margin: 0; } }
