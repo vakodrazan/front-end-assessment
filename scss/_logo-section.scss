@@ -12,6 +12,10 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   row-gap: $list_gap;
+
+  @media (min-width: $breakpoint-desktop) {
+    @include flex_layout()
+  }
 }
 
 .main__logo__article__list-item__information--sport_tv {
@@ -44,8 +48,5 @@
   .main__logo {
     max-width: $breakpoint-desktop;
     margin: auto;
-  }
-  .main__logo__article__list-item {
-    @include flex_layout()
   }
 }
