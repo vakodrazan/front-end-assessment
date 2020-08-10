@@ -1,10 +1,15 @@
 @import "variables";
 
-/* Default device is mobile */
-/* This is for the logo */
+// Default device is mobile
+
 
 .header {
   text-align: center;
+
+  @media (min-width: $breakpoint-desktop) {
+    position: absolute;
+    left: $container_percentage;
+  }
 }
 
 
@@ -15,30 +20,19 @@
   margin: 0;
   padding-top: 2.25rem;
   padding-bottom: 3.125rem;
+
+  @media (min-width: $breakpoint-desktop) {
+    padding-top: 1rem;
+    padding-bottom: 8.3125rem;
+    margin-left: calc(#{$container_percentage} - #{$breakpoint-desktop});
+  }
 }
 
 /* The logo image */
 .header__logo__link__image {
   min-width: 11.625rem;
-}
 
-/* Desktop view */
-
-@media (min-width: $breakpoint-desktop) {
-  .header {
-    position: absolute;
-    left: $container_percentage;
-  }
-
-
-  .header__logo {
-    padding-top: 1rem;
-    padding-bottom: 8.3125rem;
-    margin-left: calc(#{$container_percentage} - #{$breakpoint-desktop});
-  }
-
-  .header__logo__link__image {
+  @media (min-width: $breakpoint-desktop) {
     max-width: 5.75rem;
   }
 }
-
