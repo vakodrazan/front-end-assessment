@@ -251,7 +251,8 @@ svg {
     justify-content: space-between; } }
 
 .main__footer {
-  background-color: #00ADEE; }
+  background-color: #00ADEE;
+  padding: 10px; }
 
 .main__footer a {
   color: white; }
