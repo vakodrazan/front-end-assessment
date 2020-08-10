@@ -5,7 +5,7 @@
 
 .header {
   text-align: center;
-
+  background-color: $header_bg_color;
   @media (min-width: $breakpoint-desktop) {
     position: absolute;
     left: $container_percentage;
