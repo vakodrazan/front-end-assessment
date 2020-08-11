@@ -8,10 +8,9 @@
 }
 
 .main__logo__article__list-item {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  row-gap: $list_gap;
+  @include flex_layout();
+  flex-wrap: wrap;
+  align-items: center;
 
   @media (min-width: $breakpoint-desktop) {
     @include flex_layout()
@@ -19,32 +18,41 @@
 }
 
 .main__logo__article__list-item__information--sport_tv {
-  grid-column: 1/3;
+  flex-basis: 50%;
 }
 
 .main__logo__article__list-item__information--sports-logo {
-  grid-column: 3/5;
+  flex-basis: 50%;
 }
 
 .main__logo__article__list-item__information--nbc-sport {
-  grid-column: 1/2;
+  flex-basis: 30%;
 }
 
 .main__logo__article__list-item__information--designer-technology {
-  grid-column: 2/4;
+  flex-basis: 40%;
 }
 
 .main__logo__article__list-item__information--designer-news {
-  grid-column: 4/5;
+  flex-basis: 30%;
 }
 
 .main__logo__article__list-item__information--sky-sport {
-  grid-column: 1/5;
+  flex-basis: 100%;
+}
+
+.main__logo__article__list-item__information a {
+  min-height: 100px;
+
+  display: block;
+  margin: 0;
 }
 
 
-
 @media (min-width: $breakpoint-desktop) {
+  .main__logo__article__list-item__information {
+    flex-basis: auto;
+  }
   .main__logo {
     max-width: $breakpoint-desktop;
     margin: auto;
