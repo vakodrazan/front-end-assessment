@@ -16,7 +16,8 @@
 
 /* For the style in general */
 body {
-  font-family: 'Lato',Arial, Helvetica, sans-serif; }
+  font-family: 'Lato',Arial, Helvetica, sans-serif;
+  margin: 0; }
 
 main {
   text-align: center; }
